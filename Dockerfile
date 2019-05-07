@@ -6,6 +6,7 @@ RUN apt update \
     ca-certificates \
     curl \
     git \
+    openssh-client \
  && rm -rf /var/lib/apt/lists/* \
  && apt-get -y autoremove
  
